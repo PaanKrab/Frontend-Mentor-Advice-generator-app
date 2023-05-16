@@ -57,7 +57,7 @@ section.advice {
     height: 132px;
     margin: 40px auto auto auto;
     color: hsl(193, 38%, 86%);
-    font-size: 24px;
+    font-size: 23px;
 
 }
 
@@ -89,7 +89,7 @@ p.welcome {
     left: 50%;
     transform: translateX(-50%);
     color: hsl(193, 38%, 86%);
-    font-size: 24px;
+    font-size: 23px;
 }
 
 @media (min-width: 1440px) {
@@ -106,7 +106,10 @@ p.welcome {
         margin-top: 30px;
         width: 444px;
         height: 114px;
-        font-size: 28px;
+        font-size: 26px;
         padding: 5px;
+    }
+     img.divider {
+        content: url(https://raw.githubusercontent.com/PaanKrab/Frontend-Mentor-Advice-generator-app/eec82e621340fa3d383b539cb260847b75cec381/images/pattern-divider-desktop.svg);
     }
 }
